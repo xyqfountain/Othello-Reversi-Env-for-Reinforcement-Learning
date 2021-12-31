@@ -88,13 +88,13 @@ Some ideas for realization and cautions are listed as below:
   
 * The method `get_human_action(self)` reads the location of your mouse when clicked the left button and check if it is a legal grid to put a piece. 
   If legal, a piece of a corresponding color will be put in the grid. 
-  Currently, if you click at an illegal grid for a certain number of times, a random grid will be chosen as the grid to put your peice. 
+  Currently, if you click at an illegal grid for a certain number of times, a random legal grid will be chosen as the grid to put your peice. 
   
 * `get_random_action(self)` realizes a random strategy by choosing randomly a possible grid where a piece is going to be put.
   
 * `__put(self, i:int, j:int, color:str)` implement the process of putting a piece and reversing your opponent's color to yours wherever the rule applicable.
   
-* `__refresh_canvas(self):` and `render(self, mode='human')` refresh the visualized board with updated pieces, and display the updated counts of each color.
+* `__refresh_canvas(self)` and `render(self, mode='human')` refresh the visualized board with updated pieces, and display the updated counts of each color.
   
 * `__check_termination(self)` checks whether the game is over. Normally the game is over when the board is full of pieces. Sometimes when it is impossible for either player to put a piece, the game ends in advance with a few empty grids.
 
