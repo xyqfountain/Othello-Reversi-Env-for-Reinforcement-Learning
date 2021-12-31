@@ -72,6 +72,7 @@ Some ideas for realization and cautions are listed as below:
 * Putting a piece in a grid is a process of: (1) getting the exact pixel coordinates in a grid, like (y:row, x:col), 
   which  represents the upper left position inside the grid where to put the piece). Remember, if you are designing your own board, 
   you need to get the precise coordinates of the left upper pixels to be replaced by a piece. I did it using an image processing tool for convenience like below:
+  
   ![get coor](imgs/Screenshot 2021-08-06 155406.png)
   
   (2) Replacing the pixels of part of the grid with the pixels of a piece. The size of a piece is a little smaller than the size of a grid.
