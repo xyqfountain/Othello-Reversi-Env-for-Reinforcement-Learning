@@ -9,9 +9,9 @@ not build an AI agent and train it to play Reversi. After some searches,
 I found that there are indeed many peoples sharing their experience of doing this. 
 But their efforts are not on a fancy Reversi environment such as seemingly 3D pieces and board 
 but on simpy table-like texts (their algorithms / ML models are excellent though). I am not sure if there exist one for fun or research purposes, but I gave up further 
-searching and decided to build a fancy Reversi environment for my like the picture below:
+searching and decided to build a fancy Reversi environment for myself like the picture below:
 
-![board in step 04](imgs/reversi_process/board in step 04.png)
+![board in step 04](imgs/reversi_process/board_in_step_05.png)
 
 As you can see, with this environment, you have the naturalness of the pieces and the board. You can see the hint of possible positions for the next player (the red "+" sign).
 You have piece counters. It will make the ML model developing process more interesting than boring text symbols.
@@ -73,7 +73,7 @@ Some ideas for realization and cautions are listed as below:
   which  represents the upper left position inside the grid where to put the piece). Remember, if you are designing your own board, 
   you need to get the precise coordinates of the left upper pixels to be replaced by a piece. I did it using an image processing tool for convenience like below:
   
-  ![get coor](imgs/Screenshot 2021-08-06 155406.png)
+  ![get coor](imgs/Screenshot_2021-08-06_155406.png)
   
   (2) Replacing the pixels of part of the grid with the pixels of a piece. The size of a piece is a little smaller than the size of a grid.
   
