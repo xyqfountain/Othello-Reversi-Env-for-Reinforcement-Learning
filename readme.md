@@ -113,3 +113,6 @@ The process of training your models. You are free to develop your own. My code m
 #### play_the_game.py
 Play the game with a trained AI
 
+
+### Other
+Hope you find this environment interesting and helpful. This repository might still be updated but I am not sure when. ^_^
