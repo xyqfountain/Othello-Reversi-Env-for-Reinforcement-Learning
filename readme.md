@@ -108,7 +108,7 @@ This is some of my implementations of RL algorithms. Many algorithms are availab
 This is where your ML knowledge can be applied. Some cautions I got from my implementations:
 * The player puts the last piece on the board is not definitely the winner. So when a game is over, it might be wrong to assign rewards to the last player.
 * Design proper rewards for each step as in my code those rewards are arbitrarily designed.
-* You of course do not want to play with an agent for thousands of rounds for training it. It's better to have to agents and let one to learn and let the other just to be updated at intervals.
+* You of course do not want to play with an agent for thousands of rounds for training it. It's better to have two agents and let one to learn and let the other one just to be updated at intervals.
 
 #### train.py
 The process of training your models. You are free to develop your own. My code might be a little messy in your eyes.
