@@ -9,7 +9,7 @@ After so many years, I am now a researcher and a fan of AI. Suddenly one day I r
 not build an AI agent and train it to play Reversi. After some searches, 
 I found that there are indeed many peoples sharing their experience of doing this. 
 But their efforts are not on a fancy Reversi environment such as seemingly 3D pieces and board 
-but on simpy table-like texts (their algorithms / ML models are excellent though). I am not sure if there exist one for fun or research purposes, but I gave up further 
+but on simply table-like texts (their algorithms / ML models are excellent though). I am not sure if there exist one for fun or research purposes, but I gave up further 
 searching and decided to build a fancy Reversi environment for myself like the picture below:
 
 ![board in step 04](imgs/reversi_process/board_in_step_05.png)
@@ -108,6 +108,7 @@ This is some of my implementations of RL algorithms. Many algorithms are availab
 This is where your ML knowledge can be applied. Some cautions I got from my implementations:
 * The player puts the last piece on the board is not definitely the winner. So when a game is over, it might be wrong to assign rewards to the last player.
 * Design proper rewards for each step as in my code those rewards are arbitrarily designed.
+* You of course do not want to play with an agent for thousands of rounds for training it. It's better to have to agents and let one to learn and let the other just to be updated at intervals.
 
 #### train.py
 The process of training your models. You are free to develop your own. My code might be a little messy in your eyes.
