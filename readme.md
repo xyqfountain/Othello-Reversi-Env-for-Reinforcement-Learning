@@ -1,8 +1,9 @@
-## Build Othello/Reversi game environment with fancy GUI for Reinforcement Learning
+## Build an Othello/Reversi chess game environment with fancy GUI for Reinforcement Learning
 [Reversi](https://en.wikipedia.org/wiki/Reversi) (aka Othello) is a game that I knew and played since I was in middle school. 
-You can play with a PC or another human player. The rule is very simple. You can have a try [here](https://www.mathsisfun.com/games/reversi.html).
-After trying many times I figured our myself without reading any tutorials that the positions at the four corners, and along the four boundaries are very critical places. 
-You must think very carefully before putting your pieces there.
+You can play with a PC or another human player. 
+The rule is very simple. You can have a try [here](https://www.mathsisfun.com/games/reversi.html).
+After trying many times I figured our myself without reading any tutorials that the positions at the four corners, 
+and along the four boundaries are very critical places. You must think very carefully before putting your pieces there.
 
 After so many years, I am now a researcher and a fan of AI. Suddenly one day I recalled this game and asked myself why 
 not build an AI agent and train it to play Reversi. After some searches, 
@@ -13,11 +14,12 @@ searching and decided to build a fancy Reversi environment for myself like the p
 
 ![board in step 04](imgs/reversi_process/board_in_step_05.png)
 
-As you can see, with this environment, you have the naturalness of the pieces and the board. You can see the hint of possible positions for the next player (the red "+" sign).
+As you can see, with this environment, you have the naturalness of the pieces and the board. 
+You can see the hint of possible positions for the next player (the red "+" sign).
 You have piece counters. It will make the ML model developing process more interesting than boring text symbols.
 
 In the following parts I will introduce how to build such a Reversi environment for your reinforcement learning algorithms.
-I build some RL agents with some very basic strategies and at least for now my agent is able to beat the random strategy at 80% probability.
+I build some RL agents with some very basic strategies. At least for now my agent is able to beat the random strategy at 80% probability.
 
 All these are just for fun!
 
@@ -115,4 +117,5 @@ Play the game with a trained AI
 
 
 ### Other
-Hope you find this environment interesting and helpful. This repository might still be updated but I am not sure when. ^_^
+Hope you find this environment interesting and helpful. 
+This repository might still be updated, but I am not sure when. Enjoy! ^_^
