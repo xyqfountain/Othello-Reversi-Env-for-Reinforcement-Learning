@@ -29,7 +29,7 @@ You need to prepare:
 * a white piece (or any other color you like)  ![white](imgs/reversi_white.png)  
 * a black piece (or any other color you like)  ![black](imgs/reversi_black.png)  
 
-You may notice that the pieces are not in the shape of a circle, but a square with green background color identical to the board. 
+You may notice that the pieces are not of a round shape, but a square with green background color identical to the board. 
 It does not matter, when put on the board no one would tell it is the color of the board or the color from a piece.  
 
 That's enough for building the environment. Now we need some coding.
